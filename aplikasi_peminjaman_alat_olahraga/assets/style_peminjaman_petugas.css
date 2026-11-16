@@ -1,0 +1,12 @@
+ body { font-family: Arial, sans-serif; padding: 20px; }
+        table { border-collapse: collapse; margin-top: 10px; }
+        th { background-color: #f2f2f2; }
+        .status-pending { background: #ffc107; color: black; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        .status-dipinjam { background: #28a745; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        .status-kembali { background: #007bff; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        .btn-setujui { color: green; font-weight: bold; text-decoration: none; border: 1px solid green; padding: 3px 7px; border-radius: 3px; 
+        }
+ @media print { 
+           .btn , .btn ,  .no-print {  display: none !important; } 
+            .badge { color: black !important; border: 1px solid #ccc; }
+        }
