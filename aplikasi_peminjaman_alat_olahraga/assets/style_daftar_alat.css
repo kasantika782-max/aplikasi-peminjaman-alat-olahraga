@@ -1,0 +1,29 @@
+.button {
+    background-color: #3498db;
+    color: white;
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+/* Tombol Hapus */
+.buton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.buton:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.2);
+}
+table { 
+    border-collapse: collapse; width: 100%; margin-top: 20px; font-family: sans-serif; border: 1px solid #ddd;
+ }
+        th { background: #f2f2f2; padding: 12px; text-align: left; border: 1px solid #ddd; }
+        td { padding: 10px; border: 1px solid #ddd; }
+        .img-alat { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 1px solid #eee; }
+        .btn-pinjam { padding: 6px 12px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-block; }
